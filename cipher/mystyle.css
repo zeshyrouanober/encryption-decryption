@@ -1,0 +1,113 @@
+.my-container{
+    height: 100vh;
+    width: 100%!important;
+    padding: 80px;
+    display: flex;
+}
+.content-container{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+.left-container{
+    flex:1; 
+}
+.indicator{
+    background-color: #b388ff!important;
+}
+.input-field input[type=number]:focus {
+    border-bottom: 1px solid #b388ff !important;
+    box-shadow: 0 1px 0 0 #b388ff !important;
+    font-family: 'Dosis', sans-serif;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #b388ff !important;
+    box-shadow: 0 1px 0 0 #b388ff !important;
+    font-family: 'Dosis', sans-serif;
+}
+.mono-form{
+    padding: 10px!important;
+    display: flex;
+}
+.affine-form{
+    padding: 10px!important;
+    display: flex;
+}
+#indexAffineCipher{
+    text-transform: uppercase;      
+}
+.encryp-container{
+    flex:1;
+    padding: 10px;
+}
+.encryp-container label{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+.decryp-container label{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+.encrypted-text{
+    padding: 20px;
+    display: flex;
+    margin-top: 100px!important;
+}
+.decryp-container{
+    flex:1;
+    padding: 10px;
+}
+.right-container{
+    flex:.5;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.right-container .header{
+    flex:1;
+    display: flex;
+}
+.header label{
+    flex:1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    /* font-family: 'Dosis', sans-serif;  */
+    font-weight: 100;
+    color: #ffffff !important;
+    
+}
+.right-container .content{
+    flex:2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.content .content-content{
+    flex:1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.content-content img{
+    width: 50px;
+    height: 50px!important;
+}
+.content-content label{
+    margin-left: 10px;
+}
+.right-container .footer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.footer label{
+    text-align: center;
+}
+.footer .teacher{
+    border-bottom: 1px solid #b388ff ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
